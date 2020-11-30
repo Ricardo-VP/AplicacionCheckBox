@@ -30,20 +30,20 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton4gb = new System.Windows.Forms.RadioButton();
+            this.radioButton8gb = new System.Windows.Forms.RadioButton();
+            this.radioButton12gb = new System.Windows.Forms.RadioButton();
+            this.radioButton80gbds = new System.Windows.Forms.RadioButton();
+            this.radioButton300gbds = new System.Windows.Forms.RadioButton();
+            this.radioButton500gbds = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButtonPentiumi3 = new System.Windows.Forms.RadioButton();
+            this.radioButtoni5 = new System.Windows.Forms.RadioButton();
+            this.radioButtoni7 = new System.Windows.Forms.RadioButton();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBoxCam = new System.Windows.Forms.CheckBox();
+            this.checkBoxImpresora = new System.Windows.Forms.CheckBox();
+            this.checkBoxMouse = new System.Windows.Forms.CheckBox();
             this.txtRes = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -54,9 +54,9 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioButton12gb);
+            this.groupBox1.Controls.Add(this.radioButton8gb);
+            this.groupBox1.Controls.Add(this.radioButton4gb);
             this.groupBox1.Location = new System.Drawing.Point(72, 59);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 195);
@@ -66,9 +66,9 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton6);
-            this.groupBox2.Controls.Add(this.radioButton5);
-            this.groupBox2.Controls.Add(this.radioButton4);
+            this.groupBox2.Controls.Add(this.radioButton500gbds);
+            this.groupBox2.Controls.Add(this.radioButton300gbds);
+            this.groupBox2.Controls.Add(this.radioButton80gbds);
             this.groupBox2.Location = new System.Drawing.Point(324, 59);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(202, 195);
@@ -77,77 +77,77 @@
             this.groupBox2.Text = "Disco Duro";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // radioButton1
+            // radioButton4gb
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(35, 39);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(61, 21);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "4 GB";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton4gb.AutoSize = true;
+            this.radioButton4gb.Location = new System.Drawing.Point(35, 39);
+            this.radioButton4gb.Name = "radioButton4gb";
+            this.radioButton4gb.Size = new System.Drawing.Size(61, 21);
+            this.radioButton4gb.TabIndex = 0;
+            this.radioButton4gb.TabStop = true;
+            this.radioButton4gb.Text = "4 GB";
+            this.radioButton4gb.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // radioButton8gb
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(35, 91);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(61, 21);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "8 GB";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton8gb.AutoSize = true;
+            this.radioButton8gb.Location = new System.Drawing.Point(35, 91);
+            this.radioButton8gb.Name = "radioButton8gb";
+            this.radioButton8gb.Size = new System.Drawing.Size(61, 21);
+            this.radioButton8gb.TabIndex = 1;
+            this.radioButton8gb.TabStop = true;
+            this.radioButton8gb.Text = "8 GB";
+            this.radioButton8gb.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // radioButton12gb
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(35, 141);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(73, 21);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "12  GB";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton12gb.AutoSize = true;
+            this.radioButton12gb.Location = new System.Drawing.Point(35, 141);
+            this.radioButton12gb.Name = "radioButton12gb";
+            this.radioButton12gb.Size = new System.Drawing.Size(73, 21);
+            this.radioButton12gb.TabIndex = 2;
+            this.radioButton12gb.TabStop = true;
+            this.radioButton12gb.Text = "12  GB";
+            this.radioButton12gb.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // radioButton80gbds
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(25, 39);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(151, 21);
-            this.radioButton4.TabIndex = 0;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "80 GB Disco Sólido";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton80gbds.AutoSize = true;
+            this.radioButton80gbds.Location = new System.Drawing.Point(25, 39);
+            this.radioButton80gbds.Name = "radioButton80gbds";
+            this.radioButton80gbds.Size = new System.Drawing.Size(151, 21);
+            this.radioButton80gbds.TabIndex = 0;
+            this.radioButton80gbds.TabStop = true;
+            this.radioButton80gbds.Text = "80 GB Disco Sólido";
+            this.radioButton80gbds.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // radioButton300gbds
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(25, 91);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(159, 21);
-            this.radioButton5.TabIndex = 1;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "300 GB Disco Sólido";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton300gbds.AutoSize = true;
+            this.radioButton300gbds.Location = new System.Drawing.Point(25, 91);
+            this.radioButton300gbds.Name = "radioButton300gbds";
+            this.radioButton300gbds.Size = new System.Drawing.Size(159, 21);
+            this.radioButton300gbds.TabIndex = 1;
+            this.radioButton300gbds.TabStop = true;
+            this.radioButton300gbds.Text = "300 GB Disco Sólido";
+            this.radioButton300gbds.UseVisualStyleBackColor = true;
             // 
-            // radioButton6
+            // radioButton500gbds
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(25, 141);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(159, 21);
-            this.radioButton6.TabIndex = 2;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "500 GB Disco Sólido";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton500gbds.AutoSize = true;
+            this.radioButton500gbds.Location = new System.Drawing.Point(25, 141);
+            this.radioButton500gbds.Name = "radioButton500gbds";
+            this.radioButton500gbds.Size = new System.Drawing.Size(159, 21);
+            this.radioButton500gbds.TabIndex = 2;
+            this.radioButton500gbds.TabStop = true;
+            this.radioButton500gbds.Text = "500 GB Disco Sólido";
+            this.radioButton500gbds.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.radioButton9);
-            this.groupBox3.Controls.Add(this.radioButton8);
-            this.groupBox3.Controls.Add(this.radioButton7);
+            this.groupBox3.Controls.Add(this.radioButtoni7);
+            this.groupBox3.Controls.Add(this.radioButtoni5);
+            this.groupBox3.Controls.Add(this.radioButtonPentiumi3);
             this.groupBox3.Location = new System.Drawing.Point(579, 59);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(200, 195);
@@ -155,44 +155,44 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Procesador";
             // 
-            // radioButton7
+            // radioButtonPentiumi3
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(31, 39);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(133, 21);
-            this.radioButton7.TabIndex = 0;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Intel Pentium / i3";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButtonPentiumi3.AutoSize = true;
+            this.radioButtonPentiumi3.Location = new System.Drawing.Point(31, 39);
+            this.radioButtonPentiumi3.Name = "radioButtonPentiumi3";
+            this.radioButtonPentiumi3.Size = new System.Drawing.Size(133, 21);
+            this.radioButtonPentiumi3.TabIndex = 0;
+            this.radioButtonPentiumi3.TabStop = true;
+            this.radioButtonPentiumi3.Text = "Intel Pentium / i3";
+            this.radioButtonPentiumi3.UseVisualStyleBackColor = true;
             // 
-            // radioButton8
+            // radioButtoni5
             // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(31, 91);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(110, 21);
-            this.radioButton8.TabIndex = 3;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Intel Pentium";
-            this.radioButton8.UseVisualStyleBackColor = true;
+            this.radioButtoni5.AutoSize = true;
+            this.radioButtoni5.Location = new System.Drawing.Point(31, 91);
+            this.radioButtoni5.Name = "radioButtoni5";
+            this.radioButtoni5.Size = new System.Drawing.Size(70, 21);
+            this.radioButtoni5.TabIndex = 3;
+            this.radioButtoni5.TabStop = true;
+            this.radioButtoni5.Text = "Intel i5";
+            this.radioButtoni5.UseVisualStyleBackColor = true;
             // 
-            // radioButton9
+            // radioButtoni7
             // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(31, 141);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(110, 21);
-            this.radioButton9.TabIndex = 3;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Intel Pentium";
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.radioButtoni7.AutoSize = true;
+            this.radioButtoni7.Location = new System.Drawing.Point(31, 141);
+            this.radioButtoni7.Name = "radioButtoni7";
+            this.radioButtoni7.Size = new System.Drawing.Size(70, 21);
+            this.radioButtoni7.TabIndex = 3;
+            this.radioButtoni7.TabStop = true;
+            this.radioButtoni7.Text = "Intel i7";
+            this.radioButtoni7.UseVisualStyleBackColor = true;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.checkBox3);
-            this.groupBox4.Controls.Add(this.checkBox2);
-            this.groupBox4.Controls.Add(this.checkBox1);
+            this.groupBox4.Controls.Add(this.checkBoxMouse);
+            this.groupBox4.Controls.Add(this.checkBoxImpresora);
+            this.groupBox4.Controls.Add(this.checkBoxCam);
             this.groupBox4.Location = new System.Drawing.Point(832, 59);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(200, 195);
@@ -200,35 +200,35 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Accesorios";
             // 
-            // checkBox1
+            // checkBoxCam
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(29, 40);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(112, 21);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Camara Wéb";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxCam.AutoSize = true;
+            this.checkBoxCam.Location = new System.Drawing.Point(29, 40);
+            this.checkBoxCam.Name = "checkBoxCam";
+            this.checkBoxCam.Size = new System.Drawing.Size(112, 21);
+            this.checkBoxCam.TabIndex = 0;
+            this.checkBoxCam.Text = "Camara Wéb";
+            this.checkBoxCam.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // checkBoxImpresora
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(29, 92);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(116, 21);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Impresora HP";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBoxImpresora.AutoSize = true;
+            this.checkBoxImpresora.Location = new System.Drawing.Point(29, 92);
+            this.checkBoxImpresora.Name = "checkBoxImpresora";
+            this.checkBoxImpresora.Size = new System.Drawing.Size(116, 21);
+            this.checkBoxImpresora.TabIndex = 1;
+            this.checkBoxImpresora.Text = "Impresora HP";
+            this.checkBoxImpresora.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // checkBoxMouse
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(29, 142);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(148, 21);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "Mouse inalámbrico";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBoxMouse.AutoSize = true;
+            this.checkBoxMouse.Location = new System.Drawing.Point(29, 142);
+            this.checkBoxMouse.Name = "checkBoxMouse";
+            this.checkBoxMouse.Size = new System.Drawing.Size(148, 21);
+            this.checkBoxMouse.TabIndex = 2;
+            this.checkBoxMouse.Text = "Mouse inalámbrico";
+            this.checkBoxMouse.UseVisualStyleBackColor = true;
             // 
             // txtRes
             // 
@@ -249,6 +249,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Procesar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmPartesComputadora
             // 
@@ -279,21 +280,21 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton12gb;
+        private System.Windows.Forms.RadioButton radioButton8gb;
+        private System.Windows.Forms.RadioButton radioButton4gb;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton radioButton500gbds;
+        private System.Windows.Forms.RadioButton radioButton300gbds;
+        private System.Windows.Forms.RadioButton radioButton80gbds;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.RadioButton radioButton9;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton7;
+        private System.Windows.Forms.RadioButton radioButtoni7;
+        private System.Windows.Forms.RadioButton radioButtoni5;
+        private System.Windows.Forms.RadioButton radioButtonPentiumi3;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBoxMouse;
+        private System.Windows.Forms.CheckBox checkBoxImpresora;
+        private System.Windows.Forms.CheckBox checkBoxCam;
         private System.Windows.Forms.TextBox txtRes;
         private System.Windows.Forms.Button button1;
     }
