@@ -24,6 +24,7 @@ namespace AplicacionCheckBox
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //MEMORIAS RAM
             string cad = "";
             if (radioButton4gb.Checked)
             {
@@ -39,6 +40,7 @@ namespace AplicacionCheckBox
 
             this.txtRes.Text = cad;
 
+            //DISCO DURO
             string cad2 = "";
             if (radioButton80gbds.Checked) 
             {
@@ -53,6 +55,7 @@ namespace AplicacionCheckBox
 
             this.txtRes.Text += cad2;
 
+            //PROCESADORES
             string cad3 = "";
             if (radioButtonPentiumi3.Checked)
             {
@@ -67,6 +70,7 @@ namespace AplicacionCheckBox
 
             this.txtRes.Text += cad3;
 
+            //ACCESORIOS
             string cad4 = ". Además cuenta con los accesorios: ";
             if (checkBoxCam.Checked)
             {
