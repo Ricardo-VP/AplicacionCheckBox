@@ -46,6 +46,10 @@
             this.checkBoxMouse = new System.Windows.Forms.CheckBox();
             this.txtRes = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.txtNum = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.txtNumInvertido = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -251,11 +255,54 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // txtNum
+            // 
+            this.txtNum.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNum.Location = new System.Drawing.Point(403, 443);
+            this.txtNum.MaxLength = 4;
+            this.txtNum.Name = "txtNum";
+            this.txtNum.Size = new System.Drawing.Size(138, 30);
+            this.txtNum.TabIndex = 6;
+            this.txtNum.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNum_KeyPress);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(68, 443);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(292, 24);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Ingresa un número entero de 4 digitos:";
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(598, 444);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(107, 29);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Invertir";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // txtNumInvertido
+            // 
+            this.txtNumInvertido.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumInvertido.Location = new System.Drawing.Point(773, 444);
+            this.txtNumInvertido.Name = "txtNumInvertido";
+            this.txtNumInvertido.Size = new System.Drawing.Size(138, 30);
+            this.txtNumInvertido.TabIndex = 9;
+            // 
             // frmPartesComputadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1121, 450);
+            this.ClientSize = new System.Drawing.Size(1121, 543);
+            this.Controls.Add(this.txtNumInvertido);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtNum);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtRes);
             this.Controls.Add(this.groupBox4);
@@ -297,5 +344,9 @@
         private System.Windows.Forms.CheckBox checkBoxCam;
         private System.Windows.Forms.TextBox txtRes;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtNum;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtNumInvertido;
     }
 }

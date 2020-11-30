@@ -90,5 +90,32 @@ namespace AplicacionCheckBox
 
             this.txtRes.Text += cad4;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int numero = Convert.ToInt32(txtNum.Text);
+            txtNumInvertido.Text = Convert.ToString(invertir(numero));
+        }
+
+        static int invertir(int num)
+        {
+            int numInvertido = 0;
+            while(num > 0)
+            {
+                numInvertido = numInvertido * 10 + num % 10;
+                num = num / 10;
+            }
+            return numInvertido;
+        }
+
+        private void txtNum_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+                //MessageBox.Show("Solo numeros enteros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            
+        }
     }
 }
